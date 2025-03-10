@@ -73,8 +73,8 @@ fbprophet (optional, for Prophet-based imputation)
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/time-series-preprocessing.git
-cd time-series-preprocessing
+git clone https://github.com/anand23124/Data_Preprocessing_Blog.git
+cd Data_Preprocessing_Blog
 ```
 
 2. Install required dependencies:
@@ -90,10 +90,7 @@ pip install prophet
 ### Running the Code
 
 1. Place your dataset in the repository directory or update the file path in the code
-2. Run the preprocessing script:
-```bash
-python preprocessing.py
-```
+2. Run the preprocessing script inside the notebook
 
 This will:
 - Apply all four imputation methods
@@ -108,14 +105,6 @@ Each approach has its strengths and limitations:
 - **Mean-based imputation**: Simple and fast but doesn't account for trends
 - **IQR-based imputation**: Good for handling potential outliers in the imputed values
 - **KNN imputation**: Effective for capturing non-linear patterns and relationships between nearby timestamps
-
-## Future Work
-
-Potential extensions to this project include:
-- Implementing ensemble methods that combine multiple imputation techniques
-- Adding more robust evaluation metrics to compare imputation quality
-- Extending to multivariate time series imputation
-- Developing an automated decision framework to select the best imputation method based on data characteristics
 
 ## Contributing
 
